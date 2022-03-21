@@ -6,7 +6,7 @@ declare @newmodel varchar(50), @oldmodel varchar(50);
 Set @newmodel = '[NewModel to Compare]';
 set @oldmodel = '[OldModel to Compare]';
 
-
+ 
 Declare @Temp table (TABLE_SCHEMA varchar(40), TABLE_NAME varchar(40), COLUMN_NAME varchar(50), ORDINAL_POSITION int, IS_NULLABLE varchar(5), NullChange varchar(5), Comment varchar(50));
 
 Declare @script varchar(5000);
